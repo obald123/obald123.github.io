@@ -84,29 +84,6 @@ export default function Skills() {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="bg-white p-6 rounded-lg shadow-lg">
-          <h3 className="text-2xl font-semibold mb-4 text-blue-600">Certifications</h3>
-          <ul className="space-y-2">
-            {certifications.map((cert, index) => (
-              <li key={index} className="text-gray-700 flex items-center">
-                <span className="text-green-500 mr-2">✓</span>
-                {cert}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="bg-white p-6 rounded-lg shadow-lg">
-          <h3 className="text-2xl font-semibold mb-4 text-blue-600">Tools & Technologies</h3>
-          <div className="flex flex-wrap gap-2">
-            {tools.map((tool, index) => (
-              <span key={index} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
-                {tool}
-              </span>
-            ))}
-          </div>
-        </div>
-      </div>
     </div>
   );
 }

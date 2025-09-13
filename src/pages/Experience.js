@@ -3,23 +3,29 @@ import React from 'react';
 const experiences = [
   {
     title: 'Full Stack Developer Intern',
-    company: 'Tech Company',
-    period: 'June 2023 - August 2023',
-    description: 'Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver features on time.'
+    company: 'Bouletteproof, Kigali',
+    period: 'April 2025 - July 2025',
+    description: 'Collaborated in a team to develop a web application on both frontend and backend using react(next.js) and node.js'
   },
   {
-    title: 'IT Support Intern',
-    company: 'IT Solutions Ltd.',
-    period: 'January 2022 - May 2022',
-    description: 'Provided technical support and troubleshooting for hardware and software issues. Assisted in network maintenance and user training.'
+    title: 'IT Support Technician',
+    company: 'Protection Technologies ltd, kigali',
+    period: 'Feb 2021 - March 2023',
+    description: 'Repairing and maintaining computers, projectors, printers and other electronic devices .'
+  },
+  {
+    title: 'Software Engineer Intern',
+    company: 'Klab, kigali',
+    period: 'June 2017 - July 2017',
+    description: 'developing a solo project using javascript and html .'
   }
 ];
 
 const education = [
   {
-    degree: 'Bachelor of Science in Computer Science',
-    institution: 'University of Example',
-    period: '2019 - 2023'
+    degree: 'bachelor degree in computer science',
+    institution: 'INES Ruhengeri, Musanze',
+    period: 'March 2023 - August 2025'
   }
 ];
 

@@ -15,10 +15,10 @@ export default function About() {
           />
           <div>
             <p className="text-lg leading-relaxed text-gray-800 mb-4">
-              Hi, I'm Simugomwa Obald, a passionate Full Stack Developer Intern with experience in React (Next.js), Node.js, and Python frameworks. I specialize in building modern web applications and collaborating in teams to deliver high-quality solutions.
+              Hi, I'm Simugomwa Obald, a passionate Full Stack Developer with experience in React (Next.js), Node.js, flutter and Python frameworks. I specialize in building modern web applications and collaborating in teams to deliver high-quality solutions.
             </p>
             <p className="text-lg leading-relaxed text-gray-800">
-              My background includes IT support and software engineering internships, where I've honed my skills in problem-solving and continuous learning. I'm enthusiastic about leveraging technology to create impactful digital experiences.
+              My background includes IT support and software engineering , where I've honed my skills in problem-solving and continuous learning. I'm enthusiastic about leveraging technology to create impactful digital experiences.
             </p>
           </div>
         </div>
@@ -36,11 +36,9 @@ export default function About() {
           <div>
             <h3 className="text-2xl font-semibold mb-4 text-blue-600">Hobbies</h3>
             <ul className="list-disc list-inside text-gray-800 space-y-2">
-              <li>Reading Tech Blogs and Books</li>
+              <li>Reading about history and facts</li>
               <li>Coding Personal Projects</li>
-              <li>Exploring Nature and Hiking</li>
-              <li>Playing Chess</li>
-              <li>Watching Sci-Fi Movies</li>
+              <li>Exploring Nature </li>
             </ul>
           </div>
         </div>
