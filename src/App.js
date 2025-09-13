@@ -7,6 +7,7 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Languages from './pages/Languages';
+import Experience from './pages/Experience';
 
 function App() {
   return (
@@ -33,6 +34,11 @@ function App() {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/experience" className="hover:text-blue-600 transition">
+                    Experience
+                  </Link>
+                </li>
+                <li>
                   <Link to="/projects" className="hover:text-blue-600 transition">
                     Projects
                   </Link>
@@ -56,6 +62,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/languages" element={<Languages />} />
