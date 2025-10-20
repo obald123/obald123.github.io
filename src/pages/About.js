@@ -9,22 +9,7 @@ export default function About() {
         </h2>
         <div className="flex flex-col md:flex-row items-center mb-6">
           <img
-            src="/pic.jpg" 
-            alt="Simugomwa Obald"
-            className="w-32 h-32 rounded-full object-cover mb-4 md:mb-0 md:mr-6"
-          />
-          <div className="text-center md:text-left">
-            <p className="text-lg leading-relaxed text-gray-800 mb-4">
-              Hi, I'm Simugomwa Obald, a passionate Full Stack Developer with experience in React (Next.js), Node.js, flutter and Python frameworks. I specialize in building modern web applications and collaborating in teams to deliver high-quality solutions.
-            </p>
-            <p className="text-lg leading-relaxed text-gray-800">
-              My background includes IT support and software engineering , where I've honed my skills in problem-solving and continuous learning. I'm enthusiastic about leveraging technology to create impactful digital experiences.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col md:flex-row items-center mb-6">
-          <img
-            src="/pic.jpg" 
+            src="/pic.jpg" // Assuming the image is in public folder
             alt="Simugomwa Obald"
             className="w-32 h-32 rounded-full object-cover mb-4 md:mb-0 md:mr-6"
           />
