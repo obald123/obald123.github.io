@@ -52,7 +52,7 @@ export default function Contact() {
                 <span className="text-2xl mr-3">📱</span>
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <a href="tel:0789934421" className="text-blue-600 hover:underline">0789934421</a>
+                  <a href="tel:+250789934421" className="text-blue-600 hover:underline">+250789934421</a>
                 </div>
               </div>
               <div className="flex items-center">
