@@ -1,6 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -129,6 +131,7 @@ function App() {
             © 2024 SIMUGOMWA Obald
           </div>
         </footer>
+        <ToastContainer />
       </div>
     </Router>
   );

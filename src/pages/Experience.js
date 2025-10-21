@@ -2,6 +2,12 @@ import React from 'react';
 
 const experiences = [
   {
+    title: 'Fullstack Developer',
+    company: 'DTEC Software Solutions Ltd',
+    period: 'October 2025 - Present',
+    description: 'Developing cross-platform mobile applications using Flutter, ensuring seamless user experiences on iOS and Android devices.'
+  },
+  {
     title: 'Full Stack Developer Intern',
     company: 'Bouletteproof, Kigali',
     period: 'April 2025 - July 2025',

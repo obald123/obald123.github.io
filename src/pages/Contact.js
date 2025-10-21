@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -8,7 +9,7 @@ export default function Contact() {
     message: ''
   });
 
-  const [statusMessage, setStatusMessage] = useState('');
+  const [statusMessage] = useState('');
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -17,17 +18,23 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Replace these with your EmailJS service ID, template ID, and user ID
+    const messageWithEmail = `From: ${formData.email}\n\n${formData.message}`;
+
+    const dataToSend = {
+      ...formData,
+      message: messageWithEmail
+    };
+
     const serviceID = 'service_v1l88rl';
     const templateID = 'template_ssg200o';
     const userID = 'VC4RgW42eRUke6wh4';
 
-    emailjs.send(serviceID, templateID, formData, userID)
+    emailjs.send(serviceID, templateID, dataToSend, userID)
       .then((response) => {
-        setStatusMessage('Message sent successfully!');
+        toast.success('Message sent successfully!');
         setFormData({ name: '', email: '', message: '' });
       }, (err) => {
-        setStatusMessage('Failed to send message. Please try again later.');
+        toast.error('Failed to send message. Please try again later.');
       });
   };
 
